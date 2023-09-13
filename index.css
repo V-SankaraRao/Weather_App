@@ -1,0 +1,66 @@
+body{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.contents{
+    display:none;
+}
+#st{
+    text-align: center;
+    color: red;
+    display: none;
+}
+.box{
+    background-color: rgb(159, 255, 159);
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.search{
+    margin: 10px;
+    padding: 10px;
+}
+#city{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: large;
+    
+}
+#submit{
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+#name{
+    font-size:50px
+}
+#temp{
+    font-size: 35px;
+}
+#image{
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
